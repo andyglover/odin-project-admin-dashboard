@@ -71,14 +71,17 @@
     gap:1px;
     border-radius: 10px;
 }
-.announcement:nth-child(n+2){
-    border-top: 1px solid black;
+.main> .announcements > .announce-container {
+    padding: 25px;
 }
 .main> .announcements > .announce-container > .announcement {
     padding: 10px 0 10px 0;
 }
 .main> .announcements > .announce-container > .announcement > .title {
     font-weight: bold;
+}
+.announcement:nth-child(n+2){
+    border-top: 1px solid black;
 }
 .main > .trending {
     /* border: 1px solid black; */
