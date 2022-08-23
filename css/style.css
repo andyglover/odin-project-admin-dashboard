@@ -5,13 +5,26 @@
     height: 98vh;
 }
 .sidebar{
-background-color: #1992d4;
-grid-row: span 2;
+    background-color: #1992d4;
+    grid-row: span 2;
 }
 .header{
-background-color: #fff;
-border: 1px solid black;
+    background-color: #fff;
+    border: 1px solid black;
 }
 .main{
-background-color: #e2e8f0;
+    display:grid;
+    background-color: #e2e8f0;
+}
+.main > .projects {
+    border: 1px solid black;
+    grid-row: span 2;
+}
+.main > .announcements {
+    border: 1px solid black;
+    grid-column-start: 2;
+}
+.main > .trending {
+    border: 1px solid black;
+    grid-column-start: 2;
 }
