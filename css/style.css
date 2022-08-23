@@ -45,9 +45,18 @@
     grid-area: 2/1;
     border: 1px solid black;
 }
-.header>.buttons{
+.header>.buttons-container{
     grid-area: 2/2;
     border: 1px solid black;
+    display:grid;
+    justify-items: end;
+}
+.header>.buttons-container>.buttons{
+    border: 1px solid black;
+    display: grid;
+    grid-auto-flow:column;
+    align-items: center;
+    gap: 10px;
 }
 .main{
     display:grid;
