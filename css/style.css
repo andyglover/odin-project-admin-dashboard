@@ -40,6 +40,8 @@
 }
 .main{
     display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: #e2e8f0;
 }
 .main > .projects {
