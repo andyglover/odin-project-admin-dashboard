@@ -23,19 +23,23 @@
     grid: 1fr 1fr/2fr 1fr;
 }
 .header>.search-container{
-    
     grid-area: 1/1;
     border: 1px solid black;
     display:grid;
-    grid-template-columns: fit-content(1fr);
+    grid-template-columns: 1fr;
     grid-auto-flow:column;
     justify-items:start;
     align-items: center;
 }
 .header>.search-container>.search{
-    border: 1px solid black;
-    
-    
+    border: 1px solid black;   
+    display:grid; 
+    grid-template-columns: 1ch 1fr;
+    grid-auto-flow:column;
+    width:100%;
+}
+.header>.search-container>.search>.search-input>input{
+    width:100%;
 }
 .header>.settings-container{
     grid-area: 1/2;
