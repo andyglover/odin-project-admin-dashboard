@@ -106,7 +106,19 @@
 }
 
 .main > .projects > .card-container > .card {
+    display: grid;
+    grid-template-rows: repeat(3,fit-content(1fr));
     background-color:#fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main > .projects > .card-container > .card > .project-name {
+    font-weight: bold;
+}
+
+.main > .projects > .card-container > .card > .card-buttons {
+    justify-self: right;
+    padding-top: 20px;
 }
 
 .main > .announcements {
