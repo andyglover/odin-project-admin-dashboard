@@ -46,6 +46,18 @@
     border: 1px solid black;
     grid-row: span 2;
 }
+
+.main > .projects > .card-container {
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 50px;
+}
+
+.main > .projects > .card-container > .card {
+    background-color:#fff;
+}
+
 .main > .announcements {
     border: 1px solid black;
     grid-column-start: 2;
