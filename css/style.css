@@ -11,6 +11,11 @@
     grid-template-rows: repeat(3, fit-content(50%));
     padding: 20px;
 }
+.sidebar * {
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
 .sidebar ul {
     list-style: none;
     margin: 0;
