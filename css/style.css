@@ -7,6 +7,14 @@
 .sidebar{
     background-color: #1992d4;
     grid-row: span 2;
+    display: grid;
+    grid-template-rows: repeat(3, fit-content(50%));
+}
+.sidebar>.logo{
+
+}
+.sidebar>.menu{
+
 }
 .header{
     background-color: #fff;
