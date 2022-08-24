@@ -197,3 +197,48 @@ input[type=search] { -webkit-appearance: none; }
 .main > .trending > .trend-container > .trend > .avatar {
     grid-row: span 2;
 }
+
+.avatar {
+    height: 24px;
+    width: 24px;
+    padding: 5%;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.morgan-avatar {
+    background-color: #facc15;
+}
+.morgan-avatar svg{
+    color: #fff5f5;
+}
+
+.tegan-avatar {
+    background-color: #e0f2fe;
+}
+.tegan-avatar svg{
+    color: #f1676d;
+}
+
+.kendall-avatar {
+    background-color: #a3a3a3;
+}
+.kendall-avatar svg{
+    color: #2383ca;
+}
+
+.alex-avatar {
+    background-color: #fda4af;
+}
+.alex-avatar svg{
+    color: #359980;
+}
+
+.greeting .avatar {
+    height: 50px;
+    width: 50px;
+}
+.greeting .avatar svg{
+    width:50px;
+}
