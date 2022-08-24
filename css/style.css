@@ -139,6 +139,12 @@ input[type=search] { -webkit-appearance: none; }
     padding-top: 20px;
 }
 
+.main > .projects > .card-container > .card > .card-buttons > a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+}
+
 .main > .announcements {
     /* border: 1px solid black; */
     grid-column-start: 2;
