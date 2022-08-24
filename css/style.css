@@ -107,17 +107,19 @@ input[type=search] { -webkit-appearance: none; }
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #e2e8f0;
+    padding: 10px;
 }
 .main > .projects {
     border: 1px solid black;
     grid-row: span 2;
+    padding-right:10px;
 }
 
 .main > .projects > .card-container {
     display:grid;
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
-    gap: 50px;
+    gap: 15px;
 }
 
 .main > .projects > .card-container > .card {
