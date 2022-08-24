@@ -130,8 +130,16 @@ align-self:end;
     display: grid;
     grid-auto-flow:column;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
+    
 }
+.header>.buttons-container>.buttons>button{
+background-color:#1992d4;
+color:white;
+font-weight:bold;
+padding: 8px 20px;
+border: 0px;
+border-radius: 20px;}
 .main{
     display:grid;
     grid-template-columns: 2fr 1fr;
