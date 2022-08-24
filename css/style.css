@@ -41,6 +41,7 @@
     border: 1px solid black;
     display: grid;
     grid: 1fr 1fr/2fr 1fr;
+    padding-left: 25px;
 }
 .header>.search-container{
     grid-area: 1/1;
@@ -95,10 +96,18 @@ input[type=search] { -webkit-appearance: none; }
     grid-template-columns: repeat(2,fit-content(1fr));
     grid-auto-flow:column;
     align-items: center;
-    gap: 10px;
+    column-gap: 10px;
 }
 .header>.greeting-container>.greeting>.avatar{
     grid-row: span 2;
+}
+.header>.greeting-container>.greeting>.salutation{
+font-size: 12px;
+align-self:end;
+}
+.header>.greeting-container>.greeting>.username{
+    align-self:start;
+    font-size: 20px;
 }
 .header>.buttons-container{
     grid-area: 2/2;
