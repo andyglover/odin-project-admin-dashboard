@@ -86,6 +86,9 @@ input[type=search] { -webkit-appearance: none; }
     align-items: center;
     gap: 10px;
 }
+.header>.settings-container>.settings>.name{
+    font-weight:bold;
+}
 .header>.greeting-container{
     grid-area: 2/1;
     border: 1px solid black;
@@ -111,6 +114,7 @@ align-self:end;
 .header>.greeting-container>.greeting>.username{
     align-self:start;
     font-size: 20px;
+    font-weight: bold;
 }
 .header>.buttons-container{
     grid-area: 2/2;
