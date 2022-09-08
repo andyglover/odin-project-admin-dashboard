@@ -22,12 +22,12 @@ Constructing a complex layout with CSS Grid is a great skill to have in my toolb
 ## Examples:
 Here's a few more repositories of mine you might like to check out:
 
-**ANDYGLOVER.DEV:** https://github.com/andyglover/andyglover.dev
-
 **Calculator:** https://github.com/andyglover/odin-calculator
-
-**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
 
 **GIF Thingy:** https://github.com/andyglover/gif-thingy
 
-**ANDYGLOVER.IO:** https://github.com/andyglover/andyglover.github.io
+**Library:** https://github.com/andyglover/odin-project-library
+
+**Rock Paper Scissors:** https://github.com/andyglover/odin-rock-paper-scissors
+
+**Tic-Tac-Toe:** https://github.com/andyglover/odin-project-tictactoe
